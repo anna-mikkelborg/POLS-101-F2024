@@ -1,0 +1,440 @@
+---
+title: "Week 4: Civil Liberties"
+format: 
+  revealjs:
+    slide-number: true
+    show-slide-number: all
+    incremental: true
+    scrollable: true
+    include-in-header: 
+      text: |
+        <style>
+        .center-y {
+          margin: 0;
+          position: absolute;
+          top: 50%;
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+        }
+        </style>
+---
+
+# This week
+
+- **Wednesday:** civil liberties in the Constitution
+- **Friday:** case study: student speech
+
+# Wednesday
+
+## Civil liberties and civil rights
+
+Civil liberties
+: Freedom from government incursion onto individual action and expression
+
+Civil rights
+: Guarantee of equal treatment and protection under the law
+
+:::{.fragment}
+*civil liberties are sometimes referred to as rights*
+:::
+
+## Civil liberties in the Constitution
+
+- Recall from Week 2: debate over whether to enumerate individual rights and liberties
+- Article I, Section 9
+    - Prohibition on **bills of attainder**
+    - Prohibition on **ex post facto laws**
+    - Limitation on suspending **writ of habeas corpus**
+- First Congress proposed the Bill of Rights as the first 10 constitutional amendments; states ratified
+
+## The Bill of Rights
+
+1. Basic individual freedoms (**1,** 2, 3, 4)
+2. Criminal and civil procedure (4, **5,** 6, 7, 8)
+3. People (9) and states (10) retain non-enumerated rights
+
+## The First Amendment
+
+:::{.fragment}
+:::{.nonincremental}
+1. Establishment clause
+
+> “Congress shall make no law respecting an establishment of religion
+:::
+    
+:::
+
+:::{.fragment}
+:::{.nonincremental}
+2. Free exercise clause
+
+> "...or prohibiting the free exercise thereof
+:::
+:::
+
+- Two forms of religious freedom
+
+## iClicker question
+
+:::{.nonincremental}
+Louisiana recently passed a state law requiring the Ten Commandments to be displayed in all public school classrooms. Which clause of the First Amendment is implicated here?
+
+a. The establishment clause
+b. The free exercise clause
+c. Both
+d. Neither
+
+:::
+
+## The First Amendment, continued
+
+:::{.nonincremental}
+3. Freedom of expression
+
+> "Congress shall make no law... abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government for a redress of grievances.”
+
+:::
+
+## Evolution of freedom of speech
+
+- 1798 Alien and Sedition Acts
+- 1917 Espionage Act
+- 1918 Sedition Act
+- 1919 *Schenck v. United States*
+- 1950s Red Scare and McCarthy hearings
+
+::: {.notes}
+- Sedition Act of 1798 made it illegal to make "false or malicious" statements about the federal government
+- Used to suppress speech by the anti-Federalists
+- Expired in 1800- New York Times co v Sullivan, 1964: "Although the Sedition Act was never tested in Court, the attack upon its validity has carried the day in the court of history."
+
+- Espionage Act of 1917 made it illegal to disseminate information that could hurt the war effort during WWI. It was enforced in a very aggressive way, and 74 newspapers critical of the war were denied access to the postal service as a result (https://firstamendment.mtsu.edu/article/espionage-act-of-1917/)
+
+- Sedition Act of 1918 limited citizens' free speech rights during wartime. It was an amendment to the Espionage Act of 1917. It prohibited individuals from inciting disloyalty to the military, use language that was "disloyal to the government, the Constitution, the military or the flag," advocate strikes on wartime production, or support countries at war with the U.S. (https://firstamendment.mtsu.edu/article/sedition-act-of-1918/).
+
+- Charles Schenck and co-defendent Elizabeth Baer, both Socialist Party members, were convicted for violating the Espionage Act for "sending literature to recently conscripted soldiers suggesting that the draft was a form of involuntary servitude that violated the Thirteenth Amendment" The Supreme Court upheld the conviction and allow wartime constraints on the First Amendment to continue
+
+- Red Scare: post-WWII, as Cold War began, was a moral panic that communists were infiltrating and subverting US government. (There actually was a lot of Soviet espionage in the US during this time.) MCarthy was the chair of the Committee on Government Operations of the Senate in the 1950s and led a series of high-profile hearings on the communist affiliations of various people, including many who were falsely accused or only very loosely connected to communism. FBI head J. Edgar Hoover was also involved in this effort.
+
+:::
+
+## iClicker question
+
+:::{.nonincremental}
+Several states and the federal government have banned acts that desecrate the U.S. flag, such as flag burning. Is such legislation constitutional?
+
+a. Yes
+b. No
+
+:::
+
+## Additional basic freedoms amendments
+
+Second Amendment
+: Right to keep and bear arms
+
+Third Amendment
+: Right not to quarter soldiers
+
+## Procedural amendments
+
+Fourth Amendment
+: Right against unreasonable search and seizure
+
+Fifth Amendment
+: Rights in criminal cases
+
+Sixth Amendment
+: Right to a speedy trial by an impartial jury
+
+Seventh Amendment
+: Right to a jury trial in civil cases
+
+Eighth Amendment
+: Right against excessive bail, fines, cruel and unusual punishment
+
+## The Fifth Amendment
+
+:::{.fragment}
+:::{.nonincremental}
+1. Grand jury clause
+
+> “No person shall be held to answer for a capital, or otherwise infamous crime, unless on a presentment or indictment of a Grand Jury, except in cases arising in the land or naval forces, or in the Militia, when in actual service in time of War or public danger;
+
+:::
+:::
+
+:::{.fragment}
+:::{.nonincremental}
+
+2. Double jeopardy clause
+
+> "nor shall any person be subject for the same offence to be twice put in jeopardy of life or limb; 
+
+:::
+:::
+
+:::{.fragment}
+:::{.nonincremental}
+
+3. Self-incrimination clause
+
+> "nor shall be compelled in any criminal case to be a witness against himself, 
+
+:::
+:::
+
+## Also the Fifth Amendment
+
+:::{.fragment}
+:::{.nonincremental}
+
+4. Due process clause
+
+> "nor be deprived of life, liberty, or property, without due process of law;
+
+:::
+:::
+
+:::{.fragment}
+:::{.nonincremental}
+
+5. Takings clause
+
+> "nor shall private property be taken for public use, without just compensation.”
+
+:::
+:::
+
+## The right to privacy
+
+- Not in the Bill of Rights, but in their **penumbra**
+
+:::{.fragment}
+![](penumbra.jpg)
+:::
+
+## *Griswold v Connecticut,* 1965
+
+> "Specific guarantees in the Bill of Rights have penumbras, formed by emanations from those guarantees that help give them life and substance" (381 U.S. 479).
+
+- First Amendment right to free association
+- Third Amendment right against quartering
+- Fourth Amendment right against unreasonable search
+- Fifth Amendment self-incrimination clause
+- Ninth Amendment: enumerated rights are not the only rights held by the people
+
+## Selective incorporation
+
+- The piecemeal process of applying the Bill of Rights to the states through case law
+- Basis in Fourteenth Amendment's due process clause:
+
+:::{.fragment}
+> "No State shall... deprive any person of life, liberty, or property, without due process of law"
+
+:::
+
+- Most rights have been incorporated
+
+## Closing thoughts
+
+- The Bill of Rights concerns relations between individuals and the state, not relations among individuals
+- The general trend has been towards expansion of federally-enforced civil liberties
+- Rights take their shape through judicial interpretation (remember Dahl...)
+
+## Friday
+
+- Discussing freedom of speech on college campuses
+- Several short readings on this topic
+
+# Friday
+
+## iClicker question
+
+:::{.nonincremental}
+A student at the University of Missouri was expelled for printing a profanity and a cartoon depicting sexual assault in the official student newspaper. Were their First Amendment rights violated?
+
+a. Yes
+b. No
+
+:::
+
+## iClicker question
+
+:::{.nonincremental}
+Students at Harvard College were expelled after participating in the pro-Palestinian encampment in Harvard Yard. Were their First Amendment rights violated?
+
+a. Yes
+b. No
+
+:::
+
+## Universities and free speech
+
+- The university as a microcosm...
+- ...with a particular purpose
+- What are students' free speech rights?
+    - Public universities are covered by the First Amendment(*)
+    - Private universities are not
+- What about hate speech?
+- What about faculty speech?
+
+## Today:
+
+1. Case law on student speech <!--https://louisville.edu/freespeech/caselaw-->
+2. The politics of student speech <!--https://thehill.com/homenews/education/4682290-campus-protests-free-speech-gaza/-->
+3. Free speech and academic freedom 
+
+# A crash course in student speech case law
+
+## *Tinker v. Des Moines* (1969)
+
+- Students at a public high school wore black armbands to protest Vietnam War
+- School instituted a ban on armbands and suspended students when they wouldn't remove them
+- Constitutional question: did the prohibition violate students' freedom of speech protections?
+- Supreme Court ruling: Yes. Schools must prove that speech would "materially and substantially interfere" with normal school activities.
+
+## Important quote
+
+::: {.center-y}
+
+> "It can hardly be argued that either students or teachers shed their constitutional rights to freedom of speech or expression at the schoolhouse gate."
+
+:::
+
+## *Healy v. James* (1972)
+
+- Students at Central Connecticut State College wanted to form a chapter of Students for a Democratic Society
+- CCSC refused to recognize the campus chapter of SDS because chapters elsewhere had staged Civil Rights and anti-Vietnam protests
+- Constitutional question: Does the First Amendment cover activity at public universities as it does elsewhere?
+- Supreme Court ruling: Yes.
+
+## Important quotes
+
+::: {.center-y}
+
+> “State colleges and universities are not enclaves immune from the sweep of the First Amendment... the precedents of this Court leave no room for the view that... First Amendment protections should apply with less force on college campuses than in the community at large.”
+
+:::{.fragment}
+> "The college classroom with its surrounding environs is peculiarly the marketplace of ideas."
+
+:::
+:::
+
+## *Papish v. Board of Curators of the University of Missouri* (1973)
+
+- A student newspaper published the headline "M\*\*\*F\*\*\*er Acquitted" and reprinted a political cartoon depicting sexual assault
+- The student responsible for publishing the was expelled
+- Constitutional question: Were the student's First Amendment rights violated?
+- Supreme Court ruling: Yes. The materials were not "obscene" in a legal sense and there was not a legitimate "time, place, and manner" restriction.
+
+## Important quote
+
+::: {.center-y}
+
+> “Mere dissemination of ideas—no matter how offensive to good taste—on a state university campus may not be shut off in the name alone of ‘conventions of decency.’”
+
+:::
+
+## *UWM Post v. Bd. of Regents of University of Wisconsin* (1991)
+
+- The University of Wisconsin-Milwaukee enacted rules banning speech that is "demeaning" on the basis of "race, sex, religion, color, creed, disability, sexual orientation, national origin, ancestry or age."
+- The student newspaper filed a lawsuit against the school
+- Constitutional question: Did UWM's hate speech code violate students' First Amendment rights?
+- Supreme Court decision: Yes. The university's code was too broad and vague.
+
+## Important quote
+
+::: {.center-y}
+
+> "Above all else, the First Amendment means that the government has no power to restrict expression because of its message, its ideas, its subject matter, or its content."
+
+:::
+
+## *Iota Xi Chapter of Sigma Chi Fraternity v. George Mason University* (1993)
+
+- A student wore black face at a fraternity party
+- At students' request, the dean disciplined the student
+- Constitutional question: Was disciplining the student a violation of their First Amendment rights?
+- Supreme Court decision: Yes.
+
+## Important quote
+
+::: {.center-y}
+>"If there is a bedrock principle underlying the First Amendment, it is that the Government may not prohibit the expression of an idea simply because society finds the idea itself offensive or disagreeable."
+
+:::
+
+## If you enjoy case law, there are POLS courses for that!
+
+- POLS 305: Judicial Politics
+- POLS 410: American Constitutional Law
+- POLS 413: U.S. Civil Rights and Liberties
+
+<!-- iClicker question: hypothetical case? Or just have students guess SCOTUS rulings -->
+
+# The politics of student speech
+
+- Debates over campus speech are not only legal, but political
+- Periods of debate
+    - 1960s-1970s Vietnam, free speech movement
+    - 1990s hate speech codes
+    - 2016 election
+    - 2024 Israel-Palestine conflict
+- How do these debates align with partisan conflict?
+
+## What counts as protected speech?
+
+- Hate speech is protected
+  - Not the case in all democracies (*e.g.,* Canada, Denmark, France,  India, South Africa, United Kingdom)
+- Threats are not protected
+- Offensive speech is protected
+- Fighting words are not protected
+
+:::{.fragment}
+Ambiguities leave room for political controversy
+:::
+
+# Free speech and academic freedom
+
+## Academic freedom for faculty
+
+- Not a constitutional right, but a longstanding set of principles in American higher education
+- Faculty have the right to study and teach on controversial topics
+- Tenure system protects faculty members' academic freedom
+
+:::{.fragment}
+> CSU instructors are “entitled to learn and to teach in the classroom what scholarship suggests is the truth in their particular field of expertise.”
+
+:::
+
+## Academic freedom for students
+
+- Free expression in the classroom
+    - Classroom speech $\neq$ public speech
+- Protection against improper academic evaluation
+- Protection against improper disclosure
+
+:::{.fragment}
+
+> "CSU affirms that academic freedom means that no student should be penalized because of political opinions that differ from a professor’s. Every student should feel comfortable in the right to listen critically and challenge a professor’s opinions."
+
+:::
+
+## Closing thoughts
+
+- Speech on college campuses has special significance
+- Because of that, it's especially politicized
+- Campus speech controversies highlight the tensions that arise when individuals exercise their rights within a community
+
+## Coming up
+
+:::{.nonincremental}
+
+- Monday: civil rights
+- Wednesday: unit wrap up and exam review
+- Friday: first unit exam
+
+:::
+
+

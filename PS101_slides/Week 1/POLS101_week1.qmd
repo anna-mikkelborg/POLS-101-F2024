@@ -1,0 +1,459 @@
+---
+title: "POLS 101: American Government and Politics"
+author: "Professor Anna Mikkelborg"
+format: 
+  revealjs:
+    slide-number: true
+    show-slide-number: all
+    incremental: true
+    scrollable: true
+---
+
+# Welcome!
+
+- **Today:** Course overview; syllabus
+
+- **Wednesday:** About our class; defining political science; the collective action problem
+
+- **Friday:** The United States in comparative perspective
+
+# About me (hi)
+
+## Your GTAs
+
+:::{.nonincremental}
+Erin Fitz 
+: erin.fitz@colostate.edu
+
+Aleasa Robinson 
+: aleasa.robinson@colostate.edu
+:::
+
+# 
+
+<section data-background-iframe="syllabus.pdf" data-background-interactive></section>
+
+# How to succeed in this class
+
+## Complete the assignments
+
+- 2 surveys
+- 4 short-answer exams
+- 1 paper
+- iClicker questions
+
+## Let's practice with iClicker
+
+:::{.nonincremental}
+Is this your first class at CSU??
+
+A. Yes!
+
+B. Nope
+
+:::
+
+
+## A few words of advice
+
+- Find your why
+- Reflect on your process
+- Don't be anonymous
+- Motivation follows action
+- Curiosity follows exploration
+
+## Your first assignment
+
+- Start-of-semester survey
+- 2.5% of your grade
+- Access from Canvas
+- Due by 5:00pm tomorrow (Tuesday)
+- Goals:
+    - Help me get to know you
+    - Help you set your own goals for this course
+- Should take about half an hour
+
+## Let's talk about process
+
+![Bloom's Taxonomy](blooms_taxonomy.jpeg)
+
+## Sources of support
+
+- Each other
+- Your GTAs
+- Me
+- Your academic advisor
+- CSU writing center
+
+# Questions?
+    
+## Next class
+
+- Introducing... you!
+- What is politics? And other fundamentals
+- The collective action problem
+- Read Olson and watch YouTube explainer
+
+# Wednesday
+
+About our class, foundational definitions, the collective action problem
+
+## First: any questions?
+
+:::{.nonincremental}
+- About how the class works?
+- About the syllabus?
+:::
+
+## A portrait of POLS 101
+
+## Why government?
+
+> "Were the impulses of conscience clear, uniform, and irresistibly obeyed, man would need no other lawgiver; but that not being the case, he finds it necessary to surrender up a part of his property to furnish means for the protection of the rest..." (Thomas Paine, *Common Sense*)
+
+## What is politics?
+
+The process through which groups of people reach collective decisions and carry them out.
+
+- Disagreements
+- Resource constraints
+- Nearly everything is political.
+
+## What does politics look like?
+
+- Bargaining
+- Compromise
+
+## What is political *science?*
+
+An academic discipline that uses the scientific method to understand the distribution and exercise of **power.**
+
+- Descriptive and explanatory rather than predictive (usually)
+- Positive rather than normative (usually)
+
+## What it means to be a political scientist
+
+- Teaching you is only half my job
+- The other half(ish) is publishing original research in peer-reviewed outlets
+- Political science is **science**
+    - Central goal is developing generalizable theories
+    - Theories are used to generate testable hypotheses
+    - Tests may be qualitative or quantitative
+    - New research is grounded in existing literature
+
+# Collective action problems
+
+- Bargaining and compromise work well in small groups
+- With larger groups, problems arise (Olson)
+
+## The Prisoner's Dilemma
+
+- (...in the absence of coordination...)
+- Two players, facing penalties, must decide what to do
+- If A cooperates and B cooperates, both get off easy
+- If A cooperates but B defects, B avoids any penalty but A faces severe punishment (and vice versa)
+- If A and B both defect, both receive moderate punishment
+
+## iClicker Question
+
+:::{.nonincremental}
+
+WWYD?
+
+A. Last name A-L + Cooperate
+
+B. Last name A-L + Defect
+
+C. Last Name M-Z + Cooperate
+
+D. Last Name M-Z + Defect
+
+
+:::
+
+## Is our class "rational"?
+
+## The free-rider problem
+
+- A special case of the Prisoner's Dilemma
+- When a community creates a public good...
+- ...people may not notice if an individual doesn't contribute
+- e.g., American colonies before the Revolution
+- e.g., health insurance
+
+## The Tragedy of the Commons
+
+- Another special case of the Prisoner's Dilemma
+- In public land, anyone's cattle can graze
+- Soon, too much grass is eaten and the land is bare
+- In the absence of rules (institutions), the common good disappears
+- e.g., industrial pollution, overfishing
+
+## Iterated games
+
+- Things aren't quite as bad as the Prisoner's Dilemma makes them look
+- In an iterated game, the players play many times
+- In the long run, winning strategies are different (e.g., "tit-for-tat")
+
+## Institutions
+
+Persistent rules, procedures and organizations that manage political competition
+
+Examples:
+
+- Tit-for-tat
+- The Constitution
+- Congress
+- Veto
+- Filibuster
+
+## Institutions matter
+
+- Rules of the game structure players' incentives
+- Persistent
+    - Offices, rules, etc. outlast individuals
+    - Hard to change
+- People act on the expectation that institutions will persist
+
+## Institutions
+
+- Help groups reach collective decisions
+- Enforce agreements
+- Remember Prisoner's Dilemma: players can't coordinate on their own
+- *Institutions make large-scale coordination possible.*
+
+## Coordination isn't free
+
+Transaction costs
+: Time, effort required to reach, enforce decisions
+
+Conformity costs
+: Paid by those doing something other than what they would most prefer
+
+## iClicker Question
+
+:::{.nonincremental}
+In which of these systems are \textbf{transaction costs} likely to be the highest?
+
+A. Dictatorship
+
+B. Majority rule
+
+C. Unanimity
+:::
+
+## iClicker Question
+
+:::{.nonincremental}
+In which of these systems are \textbf{conformity costs} likely to be the highest?
+
+A. Dictatorship
+
+B. Majority rule
+
+C. Unanimity
+:::
+
+## Representative government tries to balance these costs
+
+- Not everyone makes decisions (conformity costs)
+- Majorities, not unanimity, required (conformity costs)
+- Still large, representative bodies (transaction costs)
+- Many parliamentary (procedural) rules (transaction costs)
+
+# Next week: Constitutional design and conformity, transaction costs
+
+## Closing thoughts:
+
+1. Political science is about power.
+2. Politics is the distribution of transaction and conformity costs in instances of disagreement.
+3. Institutions structure how groups of people arrive at these distributions.
+
+## Next class
+
+- The United States in comparative perspective
+- Read Poloni-Staudinger and Wolf
+
+# Friday
+
+The United States in comparative perspective
+
+## iClicker question
+
+Which of these statements best describes your opinion about the United States?
+
+A. The U.S. stands above all other countries in the world
+
+B. The U.S. is one of the greatest countries in the world, along with some others
+
+C. There are other countries that are better than the U.S.
+
+---
+
+![](pew1.png)
+
+---
+
+![Pew Research Center 2023](pew2.png)
+
+## American exceptionalism
+
+> "For we must consider that we shall be as a city upon a hill. The eyes of all people are upon us" (Winthrop 1630).
+
+1. Colloquially, the belief that the United States is superior to other countries
+2. In scholarly settings, the degree to which the United States is different from other countries
+
+## Democracy around the world
+
+![Freedom House 2022](freedom_scores.png)
+
+<!--https://www.pewresearch.org/short-reads/2023/08/29/majority-of-americans-say-us-is-one-of-the-greatest-countries-in-the-world/-->
+
+## Not all democracies...
+
+- Have a written constitution
+- Have a federal system
+- Place as much emphasis on individual freedoms
+
+:::{.fragment}
+Yet they score as democratic (or even more so) than the U.S. by widely-accepted measures.
+:::
+
+:::{.fragment}
+How is the United States different from other democracies, and why?
+:::
+
+## A note about political science
+
+- American subfield: all things America
+- Comparative subfield: all other countries
+- Why? Resource disparities and teaching needs
+- This is an Americanist course, but we can learn a lot from comparativists.
+
+## What is government for?
+
+> "...The same results occur in the time when men live without other security than what their own strength and their own invention shall furnish them with... worst of all, continual fear, and danger of violent death; and the life of man, **solitary, poor, nasty, brutish, and short.**" (*The Leviathan*, Hobbes 1651)
+
+- Sounds like a collective action problem...
+- Government institutions enable escape from this problem.
+
+## What makes a good (legitimate) government?
+
+> "Man was born with a right to perfect freedom, and with an uncontrolled enjoyment of all the rights and privileges of the law of nature, equally with any other man or men in the world. So he has by nature a power... to preserve his property, that is, his **life, liberty and possessions."** (*Second Treatise,* Locke 1689)
+
+## Declaration of Independence
+
+> "We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are **Life, Liberty and the pursuit of Happiness."**
+
+## British North America Act
+
+> "It shall be lawful for the Queen, by and with the Advice and Consent of the Senate and House of Commons, to make Laws for the **Peace, Order, and good Government** of Canada, in relation to all Matters."
+
+## What makes a legitimate government?
+
+1. John Locke: a government that protects individuals' "life, liberty, and property"
+2. Jean-Jacques Rousseau: a government that promotes the "general will" (basis for "POGG")
+3. Similar values, different priorities.
+
+## Example: gun ownership
+
+![](guns.png)
+    
+## Example: gun ownership
+
+![](guns_us_canada.png)
+
+## But why do priorities differ?
+
+:::{.fragment}
+> "The growth of nations presents something analogous to this: they all bear some marks of their origin; and the circumstances which accompanied their birth and contributed to their rise affect the whole term of their being" (Tocqueville 1831).
+
+:::
+
+:::{.fragment}
+> "You think [America] just fell out of a coconut tree?" (Harris 2023).
+
+:::
+
+## Alexis de Tocqueville
+
+:::: {.columns}
+
+::: {.column width="65%"}
+
+> "A new political science is needed for a world entirely new."
+
+- French political scientist who studied the United States
+- Published *Democracy in America* in two volumes in 1835 and 1840
+
+:::
+
+::: {.column width="35%"}
+![](Toqueville.jpg)
+:::
+
+::::
+
+# Back to explaining America's unusual priorities...
+
+## 1. Behavioral explanation: moving is hard
+
+- Hartz: colonists were, on average, more adventurous than those who stayed behind
+- Euro-American settlers faced huge risks and opportunities
+- "American dream" emphasizes individual ambition and grit
+
+## 2. Historical explanation: less generational baggage
+
+:::{.fragment}
+> "Amongst democratic nations new families are constantly springing up, others are constantly falling away, and all that remain change their condition... As each class approximates to other classes, and intermingles with them, its members become indifferent and as strangers to one another" (Tocqueville 1840).
+:::
+
+- Euro-American settlers could (somewhat) escape class politics, primogeniture
+- Individuals experienced class as temporary $\rightarrow$ hampered development of class consciousness
+- Westward expansion served as a pressure release valve on socialist sentiment
+
+## 3. Political explanation: fragmentation
+
+- Colonies formed for different reasons
+    - Religious denominations
+    - Business ventures
+    - Utopian ideals
+- The U.S. is **huge**
+    - Vast diversity in regional cultures, economic interests
+- Racial and ethnic fragmentation (Alesina, Glaeser, and Sacerdote 2001)
+    - Slavery and Jim Crow $\rightarrow\$ durable racial hierarchy
+
+## 4. Another political factor: institutional path dependence
+
+- U.S. Constitution is relatively old
+- Political system designed to move slowly, resist change
+- Inertia tamps down on governmental expansion
+
+## Closing thoughts:
+
+1. American political philosophy is distinctive.
+2. America's "adolescence" was distinctive.
+3. America was and remains distinctively fragmentary.
+4. Other political cultures and institutional arrangements are not only possible, but more common.
+    
+## iClicker question
+
+Poloni-Staudinger and Wolf write that American democracy is the "best type of democracy for *the American system."* Do you agree or disagree with this statement?
+
+A. Disagree strongly
+
+B. Disagree somewhat
+
+C. Neutral/not sure
+
+D. Agree somewhat
+
+E. Agree strongly
+
+# Next week
+
+:::{.nonincremental}
+- More about America's adolescence: the Founding
+- For Monday: read your first textbook chapter (Chapter 2)
+
+:::

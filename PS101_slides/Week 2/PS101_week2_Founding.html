@@ -1,0 +1,1507 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="PS101_week2_Founding_files/libs/clipboard/clipboard.min.js"></script>
+<script src="PS101_week2_Founding_files/libs/quarto-html/tabby.min.js"></script>
+<script src="PS101_week2_Founding_files/libs/quarto-html/popper.min.js"></script>
+<script src="PS101_week2_Founding_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="PS101_week2_Founding_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="PS101_week2_Founding_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="PS101_week2_Founding_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="PS101_week2_Founding_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.3.353">
+
+  <title>Week 2: The Founding</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="PS101_week2_Founding_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="PS101_week2_Founding_files/libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="PS101_week2_Founding_files/libs/revealjs/dist/theme/quarto.css">
+  <link href="PS101_week2_Founding_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="PS101_week2_Founding_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="PS101_week2_Founding_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="PS101_week2_Founding_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+
+  .callout {
+    margin-top: 1em;
+    margin-bottom: 1em;  
+    border-radius: .25rem;
+  }
+
+  .callout.callout-style-simple { 
+    padding: 0em 0.5em;
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+    display: flex;
+  }
+
+  .callout.callout-style-default {
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+  }
+
+  .callout .callout-body-container {
+    flex-grow: 1;
+  }
+
+  .callout.callout-style-simple .callout-body {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .callout.callout-style-default .callout-body {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  .callout.callout-titled.callout-style-simple .callout-body {
+    margin-top: 0.2em;
+  }
+
+  .callout:not(.callout-titled) .callout-body {
+      display: flex;
+  }
+
+  .callout:not(.no-icon).callout-titled.callout-style-simple .callout-content {
+    padding-left: 1.6em;
+  }
+
+  .callout.callout-titled .callout-header {
+    padding-top: 0.2em;
+    margin-bottom: -0.2em;
+  }
+
+  .callout.callout-titled .callout-title  p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+    
+  .callout.callout-titled.callout-style-simple .callout-content  p {
+    margin-top: 0;
+  }
+
+  .callout.callout-titled.callout-style-default .callout-content  p {
+    margin-top: 0.7em;
+  }
+
+  .callout.callout-style-simple div.callout-title {
+    border-bottom: none;
+    font-size: .9rem;
+    font-weight: 600;
+    opacity: 75%;
+  }
+
+  .callout.callout-style-default  div.callout-title {
+    border-bottom: none;
+    font-weight: 600;
+    opacity: 85%;
+    font-size: 0.9rem;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-default div.callout-content {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-simple .callout-icon::before {
+    height: 1rem;
+    width: 1rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 1rem 1rem;
+  }
+
+  .callout.callout-style-default .callout-icon::before {
+    height: 0.9rem;
+    width: 0.9rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 0.9rem 0.9rem;
+  }
+
+  .callout-title {
+    display: flex
+  }
+    
+  .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
+
+  .callout.no-icon::before {
+    display: none !important;
+  }
+
+  .callout.callout-titled .callout-body > .callout-content > :last-child {
+    margin-bottom: 0.5rem;
+  }
+
+  .callout.callout-titled .callout-icon::before {
+    margin-top: .5rem;
+    padding-right: .5rem;
+  }
+
+  .callout:not(.callout-titled) .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
+
+  /* Callout Types */
+
+  div.callout-note {
+    border-left-color: #4582ec !important;
+  }
+
+  div.callout-note .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEU0lEQVRYCcVXTWhcVRQ+586kSUMMxkyaElstCto2SIhitS5Ek8xUKV2poatCcVHtUlFQk8mbaaziwpWgglJwVaquitBOfhQXFlqlzSJpFSpIYyXNjBNiTCck7x2/8/LeNDOZxDuEkgOXe++553zfefee+/OYLOXFk3+1LLrRdiO81yNqZ6K9cG0P3MeFaMIQjXssE8Z1JzLO9ls20MBZX7oG8w9GxB0goaPrW5aNMp1yOZIa7Wv6o2ykpLtmAPs/vrG14Z+6d4jpbSKuhdcSyq9wGMPXjonwmESXrriLzFGOdDBLB8Y6MNYBu0dRokSygMA/mrun8MGFN3behm6VVAwg4WR3i6FvYK1T7MHo9BK7ydH+1uurECoouk5MPRyVSBrBHMYwVobG2aOXM07sWrn5qgB60rc6mcwIDJtQrnrEr44kmy+UO9r0u9O5/YbkS9juQckLed3DyW2XV/qWBBB3ptvI8EUY3I9p/67OW+g967TNr3Sotn3IuVlfMLVnsBwH4fsnebJvyGm5GeIUA3jljERmrv49SizPYuq+z7c2H/jlGC+Ghhupn/hcapqmcudB9jwJ/3jvnvu6vu5lVzF1fXyZuZZ7U8nRmVzytvT+H3kilYvH09mLWrQdwFSsFEsxFVs5fK7A0g8gMZjbif4ACpKbjv7gNGaD8bUrlk8x+KRflttr22JEMRUbTUwwDQScyzPgedQHZT0xnx7ujw2jfVfExwYHwOsDTjLdJ2ebmeQIlJ7neo41s/DrsL3kl+W2lWvAga0tR3zueGr6GL78M3ifH0rGXrBC2aAR8uYcIA5gwV8zIE8onoh8u0Fca/ciF7j1uOzEnqcIm59sEXoGc0+z6+H45V1CvAvHcD7THztu669cnp+L0okAeIc6zjbM/24LgGM1gZk7jnRu1aQWoU9sfUOuhrmtaPIO3YY1KLLWZaEO5TKUbMY5zx8W9UJ6elpLwKXbsaZ4EFl7B4bMtDv0iRipKoDQT2sNQI9b1utXFdYisi+wzZ/ri/1m7QfDgEuvgUUEIJPq3DhX/5DWNqIXDOweC2wvIR90Oq3lDpdMIgD2r0dXvGdsEW5H6x6HLRJYU7C69VefO1x8Gde1ZFSJLfWS1jbCnhtOPxmpfv2LXOA2Xk2tvnwKKPFuZ/oRmwBwqRQDcKNeVQkYcOjtWVBuM/JuYw5b6isojIkYxyYAFn5K7ZBF10fea52y8QltAg6jnMqNHFBmGkQ1j+U43HMi2xMar1Nv0zGsf1s8nUsmUtPOOrbFIR8bHFDMB5zL13Gmr/kGlCkUzedTzzmzsaJXhYawnA3UmARpiYj5ooJZiUoxFRtK3X6pgNPv+IZVPcnwbOl6f+aBaO1CNvPW9n9LmCp01nuSaTRF2YxHqZ8DYQT6WsXT+RD6eUztwYLZ8rM+rcPxamv1VQzFUkzFXvkiVrySGQgJNvXHJAxiU3/NwiC03rSf05VBaPtu/Z7/B8Yn/w7eguloAAAAAElFTkSuQmCC');
+  }
+
+  div.callout-note.callout-style-default .callout-title {
+    background-color: #dae6fb
+  }
+
+  div.callout-important {
+    border-left-color: #d9534f !important;
+  }
+
+  div.callout-important .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEKklEQVRYCcVXTWhcVRS+575MJym48A+hSRFr00ySRQhURRfd2HYjk2SSTokuBCkU2o0LoSKKraKIBTcuFCoidGFD08nkBzdREbpQ1EDNIv8qSGMFUboImMSZd4/f9zJv8ibJMC8xJQfO3HPPPef7zrvvvnvviIkpC9nsw0UttFunbUhpFzFtarSd6WJkStVMw5xyVqYTvkwfzuf/5FgtkVoB0729j1rjXwThS7Vio+Mo6DNnvLfahoZ+i/o32lULuJ3NNiz7q6+pyAUkJaFF6JwaM2lUJlV0MlnQn5aTRbEu0SEqHUa0A4AdiGuB1kFXRfVyg5d87+Dg4DL6m2TLAub60ilj7A1Ec4odSAc8X95sHh7+ZRPCFo6Fnp7HfU/fBng/hi10CjCnWnJjsxvDNxWw0NfV6Rv5GgP3I3jGWXumdTD/3cbEOP2ZbOZp69yniG3FQ9z1jD7bnBu9Fc2tKGC2q+uAJOQHBDRiZX1x36o7fWBs7J9ownbtO+n0/qWkvW7UPIfc37WgT6ZGR++EOJyeQDSb9UB+DZ1G6DdLDzyS+b/kBCYGsYgJbSQHuThGKRcw5xdeQf8YdNHsc6ePXrlSYMBuSIAFTGAtQo+VuALo4BX83N190NWZWbynBjhOHsmNfFWLeL6v+ynsA58zDvvAC8j5PkbOcXCMg2PZFk3q8MjI7WAG/Dp9AwP7jdGBOOQkAvlFUB+irtm16I1Zw9YBcpGTGXYmk3kQIC/Cds55l+iMI3jqhjAuaoe+am2Jw5GT3Nbz3CkE12NavmzN5+erJW7046n/CH1RO/RVa8lBLozXk9uqykkGAyRXLWlLv5jyp4RFsG5vGVzpDLnIjTWgnRy2Rr+tDKvRc7Y8AyZq10jj8DqXdnIRNtFZb+t/ZRtXcDiVnzpqx8mPcDWxgARUqx0W1QB9MeUZiNrV4qP+Ehc+BpNgATsTX8ozYKL2NtFYAHc84fG7ndxUPr+AR/iQSns7uSUufAymwDOb2+NjK27lEFocm/EE2WpyIy/Hi66MWuMKJn8RvxIcj87IM5Vh9663ziW36kR0HNenXuxmfaD8JC7tfKbrhFr7LiZCrMjrzTeGx+PmkosrkNzW94ObzwocJ7A1HokLolY+AvkTiD/q1H0cN48c5EL8Crkttsa/AXQVDmutfyku0E7jShx49XqV3MFK8IryDhYVbj7Sj2P2eBxwcXoe8T8idsKKPRcnZw1b+slFTubwUwhktrfnAt7J++jwQtLZcm3sr9LQrjRzz6cfMv9aLvgmnAGvpoaGLxM4mAEaLV7iAzQ3oU0IvD5x9ix3yF2RAAuYAOO2f7PEFWCXZ4C9Pb2UsgDeVnFSpbFK7/IWu7TPTvBqzbGdCHOJQSxiEjt6IyZmxQyEJHv6xyQsYk//moVFsN2zP6fRImjfq7/n/wFDguUQFNEwugAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-important.callout-style-default .callout-title {
+    background-color: #f7dddc
+  }
+
+  div.callout-warning {
+    border-left-color: #f0ad4e !important;
+  }
+
+  div.callout-warning .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAETklEQVRYCeVWW2gcVRg+58yaTUnizqbipZeX4uWhBEniBaoUX1Ioze52t7sRq6APio9V9MEaoWlVsFasRq0gltaAPuxms8lu0gcviE/FFOstVbSIxgcv6SU7EZqmdc7v9+9mJtNks51NTUH84ed889/PP+cmxP+d5FIbMJmNbpREu4WUkiTtCicKny0l1pIKmBzovF2S+hIJHX8iEu3hZJ5lNZGqyRrGSIQpq15AzF28jgpeY6yk6GVdrfFqdrD6Iw+QlB8g0YS2g7dyQmXM/IDhBhT0UCiRf59lfqmmDvzRt6kByV/m4JjtzuaujMUM2c5Z2d6JdKrRb3K2q6mA+oYVz8JnDdKPmmNthzkAk/lN63sYPgevrguc72aZX/L9C6x09GYyxBgCX4NlvyGUHOKELlm5rXeR1kchuChJt4SSwyddZRXgvwMGvYo4QSlk3/zkHD8UHxwVJA6zjZZqP8v8kK8OWLnIZtLyCAJagYC4rTGW/9Pqj92N/c+LUaAj27movwbi19tk/whRCIE7Q9vyI6yvRpftAKVTdUjOW40X3h5OXsKCdmFcx0xlLJoSuQngnrJe7Kcjm4OMq9FlC7CMmScQANuNvjfP3PjGXDBaUQmbp296S5L4DrpbrHN1T87ZVEZVCzg1FF0Ft+dKrlLukI+/c9ENo+TvlTDbYFvuKPtQ9+l052rXrgKoWkDAFnvh0wTOmYn8R5f4k/jN/fZiCM1tQx9jQQ4ANhqG4hiL0qIFTGViG9DKB7GYzgubnpofgYRwO+DFjh0Zin2m4b/97EDkXkc+f6xYAPX0KK2I/7fUQuwzuwo/L3AkcjugPNixC8cHf0FyPjWlItmLxWw4Ou9YsQCr5fijMGoD/zpdRy95HRysyXA74MWOnscpO4j2y3HAVisw85hX5+AFBRSHt4ShfLFkIMXTqyKFc46xdzQM6XbAi702a7sy04J0+feReMFKp5q9esYLCqAZYw/k14E/xcLLsFElaornTuJB0svMuJINy8xkIYuL+xPAlWRceH6+HX7THJ0djLUom46zREu7tTkxwmf/FdOZ/sh6Q8qvEAiHpm4PJ4a/doJe0gH1t+aHRgCzOvBvJedEK5OFE5jpm4AGP2a8Dxe3gGJ/pAutug9Gp6he92CsSsWBaEcxGx0FHytmIpuqGkOpldqNYQK8cSoXvd+xLxXADw0kf6UkJNFtdo5MOgaLjiQOQHcn+A6h5NuL2s0qsC2LOM75PcF3yr5STuBSAcGG+meA14K/CI21HcS4LBT6tv0QAh8Dr5l93AhZzG5ZJ4VxAqdZUEl9z7WJ4aN+svMvwHHL21UKTd1mqvChH7/Za5xzXBBKrUcB0TQ+Ulgkfbi/H/YT5EptrGzsEK7tR1B7ln9BBwckYfMiuSqklSznIuoIIOM42MQO+QnduCoFCI0bpkzjCjddHPN/F+2Yu+sd9bKNpVwHhbS3LluK/0zgfwD0xYI5dXuzlQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-warning.callout-style-default .callout-title {
+    background-color: #fcefdc
+  }
+
+  div.callout-tip {
+    border-left-color: #02b875 !important;
+  }
+
+  div.callout-tip .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAADr0lEQVRYCe1XTWgTQRj9ZjZV8a9SPIkKgj8I1bMHsUWrqYLVg4Ue6v9BwZOxSYsIerFao7UiUryIqJcqgtpimhbBXoSCVxUFe9CTiogUrUp2Pt+3aUI2u5vdNh4dmMzOzHvvezuz8xNFM0mjnbXaNu1MvFWRXkXEyE6aYOYJpdW4IXuA4r0fo8qqSMDBU0v1HJUgVieAXxzCsdE/YJTdFcVIZQNMyhruOMJKXYFoLfIfIvVIMWdsrd+Rpd86ZmyzzjJmLStqRn0v8lzkb4rVIXvnpScOJuAn2ACC65FkPzEdEy4TPWRLJ2h7z4cArXzzaOdKlbOvKKX25Wl00jSnrwVxAg3o4dRxhO13RBSdNvH0xSARv3adTXbBdTf64IWO2vH0LT+cv4GR1DJt+DUItaQogeBX/chhbTBxEiZ6gftlDNXTrvT7co4ub5A6gp9HIcHvzTa46OS5fBeP87Qm0fQkr4FsYgVQ7Qg+ZayaDg9jhg1GkWj8RG6lkeSacrrHgDaxdoBiZPg+NXV/KifMuB6//JmYH4CntVEHy/keA6x4h4CU5oFy8GzrBS18cLJMXcljAKB6INjWsRcuZBWVaS3GDrqB7rdapVIeA+isQ57Eev9eCqzqOa81CY05VLd6SamW2wA2H3SiTbnbSxmzfp7WtKZkqy4mdyAlGx7ennghYf8voqp9cLSgKdqNfa6RdRsAAkPwRuJZNbpByn+RrJi1RXTwdi8RQF6ymDwGMAtZ6TVE+4uoKh+MYkcLsT0Hk8eAienbiGdjJHZTpmNjlbFJNKDVAp2fJlYju6IreQxQ08UJDNYdoLSl6AadO+fFuCQqVMB1NJwPm69T04Wv5WhfcWyfXQB+wXRs1pt+nCknRa0LVzSA/2B+a9+zQJadb7IyyV24YAxKp2Jqs3emZTuNnKxsah+uabKbMk7CbTgJx/zIgQYErIeTKRQ9yD9wxVof5YolPHqaWo7TD6tJlh7jQnK5z2n3+fGdggIOx2kaa2YI9QWarc5Ce1ipNWMKeSG4DysFF52KBmTNMmn5HqCFkwy34rDg05gDwgH3bBi+sgFhN/e8QvRn8kbamCOhgrZ9GJhFDgfcMHzFb6BAtjKpFhzTjwv1KCVuxHvCbsSiEz4CANnj84cwHdFXAbAOJ4LTSAawGWFn5tDhLMYz6nWeU2wJfIhmIJBefcd/A5FWQWGgrWzyORZ3Q6HuV+Jf0Bj+BTX69fm1zWgK7By1YTXchFDORywnfQ7GpzOo6S+qECrsx2ifVQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-tip.callout-style-default .callout-title {
+    background-color: #ccf1e3
+  }
+
+  div.callout-caution {
+    border-left-color: #fd7e14 !important;
+  }
+
+  div.callout-caution .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAACV0lEQVRYCdVWzWoUQRCuqp2ICBLJXgITZL1EfQDBW/bkzUMUD7klD+ATSHBEfAIfQO+iXsWDxJsHL96EHAwhgzlkg8nBg25XWb0zIb0zs9muYYWkoKeru+vn664fBqElyZNuyh167NXJ8Ut8McjbmEraKHkd7uAnAFku+VWdb3reSmRV8PKSLfZ0Gjn3a6Xlcq9YGb6tADjn+lUfTXtVmaZ1KwBIvFI11rRXlWlatwIAAv2asaa9mlB9wwygiDX26qaw1yYPzFXg2N1GgG0FMF8Oj+VIx7E/03lHx8UhvYyNZLN7BwSPgekXXLribw7w5/c8EF+DBK5idvDVYtEEwMeYefjjLAdEyQ3M9nfOkgnPTEkYU+sxMq0BxNR6jExrAI31H1rzvLEfRIdgcv1XEdj6QTQAS2wtstEALLG1yEZ3QhH6oDX7ExBSFEkFINXH98NTrme5IOaaA7kIfiu2L8A3qhH9zRbukdCqdsA98TdElyeMe5BI8Rs2xHRIsoTSSVFfCFCWGPn9XHb4cdobRIWABNf0add9jakDjQJpJ1bTXOJXnnRXHRf+dNL1ZV1MBRCXhMbaHqGI1JkKIL7+i8uffuP6wVQAzO7+qVEbF6NbS0LJureYcWXUUhH66nLR5rYmva+2tjRFtojkM2aD76HEGAD3tPtKM309FJg5j/K682ywcWJ3PASCcycH/22u+Bh7Aa0ehM2Fu4z0SAE81HF9RkB21c5bEn4Dzw+/qNOyXr3DCTQDMBOdhi4nAgiFDGCinIa2owCEChUwD8qzd03PG+qdW/4fDzjUMcE1ZpIAAAAASUVORK5CYII=');
+  }
+
+  div.callout-caution.callout-style-default .callout-title {
+    background-color: #ffe5d0
+  }
+
+  </style>
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+  <script src="PS101_week2_Founding_files/libs/quarto-diagram/mermaid.min.js"></script>
+  <script src="PS101_week2_Founding_files/libs/quarto-diagram/mermaid-init.js"></script>
+  <link href="PS101_week2_Founding_files/libs/quarto-diagram/mermaid.css" rel="stylesheet">
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Week 2: The Founding</h1>
+
+<div class="quarto-title-authors">
+</div>
+
+</section>
+<section id="this-week" class="title-slide slide level1 center">
+<h1>This week</h1>
+<ul>
+<li class="fragment"><p><strong>Monday:</strong> How did the U.S. come to have the Constitution and Bill of Rights?</p></li>
+<li class="fragment"><p><strong>Wednesday:</strong> Just how democratic are those documents?</p></li>
+<li class="fragment"><p><strong>Friday:</strong> Case study: voting rights</p></li>
+</ul>
+</section>
+
+<section>
+<section id="monday-origins-of-the-founding-documents" class="title-slide slide level1 center">
+<h1>Monday: origins of the founding documents</h1>
+
+</section>
+<section id="philosophical-foundations" class="slide level2">
+<h2>Philosophical foundations</h2>
+<div class="columns">
+<div class="column" style="width:65%;">
+<dl>
+<dt class="fragment">Sovereignty</dt>
+<dd class="fragment">
+Final authority over a territory (Hobbes)
+</dd>
+<dt class="fragment">Where does sovereignty come from?</dt>
+<dd class="fragment">
+Traditional view: God/Nature
+</dd>
+<dd class="fragment">
+Locke: The <strong>social contract</strong>
+</dd>
+<dt class="fragment">Rights</dt>
+<dd class="fragment">
+Entitlements to do, be, or have specific things (or not to)
+</dd>
+<dt class="fragment">Where do rights come from?</dt>
+<dd class="fragment">
+Traditional view: Government
+</dd>
+<dd class="fragment">
+Locke: God/Nature
+</dd>
+</dl>
+</div><div class="column" style="width:35%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="locke.jpeg"></p>
+<figcaption>John Locke</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="two-conflicting-frameworks" class="slide level2">
+<h2>Two conflicting frameworks</h2>
+<div class="cell" data-reveal="true" data-fig-width="7.5" data-fig-height="2">
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+  A[God/Nature] --&gt; B[Government]
+  B --&gt; C[Rights]
+</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="cell" data-reveal="true" data-fig-width="10" data-fig-height="2">
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+  A[God/Nature] --&gt; B[Rights]
+  B --&gt; C[Social contract]
+  C --&gt; D[Government]
+</pre>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="today-a-centurys-worth-of-grappling-with-these-frameworks" class="slide level2">
+<h2>Today: a century’s worth of grappling with these frameworks</h2>
+<p>1689: Locke’s <em>Two Treatises of Government</em> published</p>
+<p>1776: U.S. Declaration of Independence</p>
+<p>1791: First Congress ratifies the Bill of Rights</p>
+</section>
+<section id="iclicker-question" class="slide level2">
+<h2>iClicker question</h2>
+<div>
+<p>The agreement that citizens will consent to be governed so long as government protects their natural rights is called…</p>
+<ol type="a">
+<li>the divine right of kings</li>
+<li>the social contract</li>
+<li>due process</li>
+<li>sovereignty</li>
+</ol>
+</div>
+</section>
+<section id="prelude-to-revolution" class="slide level2">
+<h2>Prelude to revolution</h2>
+<p>1763: Seven Years’ War ends</p>
+<p>1764-68: Sugar Act, Quartering Act, Stamp Act, Townshend Acts</p>
+<p>1770: Boston Massacre</p>
+<p>1773: Tea Act; Boston Tea Party</p>
+<p>1774: Coercive Acts; First Continental Congress</p>
+<p>1776: Second Continental Congress; Declaration of Independence</p>
+</section>
+<section id="the-declaration-of-independence" class="slide level2">
+<h2>The Declaration of Independence</h2>
+<blockquote>
+<p>We hold these truths to be self-evident, that all men are created equal, that they are <strong>endowed by their Creator with certain unalienable Rights,</strong> that among these are Life, Liberty and the pursuit of Happiness. —That to secure these rights, Governments are instituted among Men, <strong>deriving their just powers from the consent of the governed,</strong> —That whenever any Form of Government becomes destructive of these ends, it is the Right of the People to alter or to abolish it, and to institute new Government, laying its foundation on such principles and organizing its powers in such form, as to them shall seem most likely to effect their Safety and Happiness.</p>
+</blockquote>
+</section>
+<section id="post-revolution" class="slide level2">
+<h2>Post-revolution</h2>
+<p>1781: Continental Congress ratifies Articles of Confederation; British surrender</p>
+<p>1787: Constitutional Convention</p>
+<p>1789: United States Constitution replaces Articles of Confederation</p>
+<p><strong>What went wrong?</strong></p>
+</section>
+<section id="the-articles-of-confederation" class="slide level2">
+<h2>The Articles of Confederation</h2>
+<dl>
+<dt class="fragment">Confederation</dt>
+<dd class="fragment">
+states have sovereignty, national government does not
+</dd>
+<dt class="fragment">Unitary system</dt>
+<dd class="fragment">
+national government has sovereignty, state governments do not
+</dd>
+<dt class="fragment">Federal system</dt>
+<dd class="fragment">
+both state and national governments possess sovereignty
+</dd>
+</dl>
+</section>
+<section id="limitations-and-constraints-on-national-government" class="slide level2">
+<h2>Limitations and constraints on national government</h2>
+<ul>
+<li class="fragment">No imposition of taxes</li>
+<li class="fragment">No regulation of trade</li>
+<li class="fragment">No authority to raise an army</li>
+<li class="fragment">Amending the Articles required a unanimous vote</li>
+</ul>
+</section>
+<section id="problems-under-the-articles" class="slide level2">
+<h2>Problems under the Articles</h2>
+<ul>
+<li class="fragment">Immediate financial struggles for the new country (war debt, access to credit)</li>
+<li class="fragment">No consistent monetary system created significant instability</li>
+<li class="fragment">Economic issues impacted the poorest people the most</li>
+</ul>
+</section>
+<section id="shays-rebellion-1786" class="slide level2">
+<h2>Shays’ Rebellion, 1786</h2>
+<div class="columns">
+<div class="column" style="width:35%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="shays.jpg"></p>
+<figcaption>Daniel Shays</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:65%;">
+<ul>
+<li class="fragment">Farmers (many war veterans who had not been paid [why?]) armed themselves and demanded debt forgiveness</li>
+<li class="fragment">Massachusetts had trouble putting down the revolt (why?)</li>
+<li class="fragment">Political and economic elites were (justifiably) panicked</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="iclicker-question-1" class="slide level2">
+<h2>iClicker question</h2>
+<div>
+<p>For how long were the Articles of Confederation in effect?</p>
+<ol type="a">
+<li>five years</li>
+<li>eight years</li>
+<li>twelve years</li>
+<li>nineteen years</li>
+</ol>
+</div>
+</section>
+<section id="the-constitutional-convention-1787" class="slide level2">
+<h2>The Constitutional Convention, 1787</h2>
+<p>The national government needed greater authority. But there were tensions:</p>
+<ul>
+<li class="fragment">Small states vs.&nbsp;large states</li>
+<li class="fragment">Slave states vs.&nbsp;free states</li>
+<li class="fragment">Federal supremacy vs.&nbsp;state sovereignty</li>
+<li class="fragment">Individual rights and freedoms vs.&nbsp;stability and order</li>
+</ul>
+</section>
+<section id="small-states-vs.-large-states" class="slide level2">
+<h2>Small states vs.&nbsp;large states</h2>
+<p>How should states be represented in the national government?</p>
+<ul>
+<li class="fragment"><p>Large states (<strong>VA</strong>, MA, PA, etc.) wanted representation by population</p></li>
+<li class="fragment"><p>Small states (<strong>NJ</strong>, RI, GA, etc.) wanted representation by state</p></li>
+<li class="fragment"><p><strong>Connecticut (Great) Compromise:</strong> bicameral legislature with proportional representation in the House of Representatives and equal representation in Senate; legislature has to pass both chambers; revenue bills must originate in the House of Representatives (why?)</p></li>
+</ul>
+</section>
+<section id="slave-states-vs.-free-states" class="slide level2">
+<h2>Slave states vs.&nbsp;free states</h2>
+<p>How should enslaved people be counted?</p>
+<ul>
+<li class="fragment">Southern states threatened to leave the Convention if the framers attempted to abolish slavery</li>
+<li class="fragment">Larger population <span class="math inline">\(\rightarrow\)</span> more power; 43% SC population enslaved</li>
+<li class="fragment"><strong>Three-Fifths Compromise:</strong> enslaved population counted at 60% for <em>both</em> representation and taxation</li>
+</ul>
+</section>
+<section id="slavery-elsewhere-in-the-constitution" class="slide level2">
+<h2>[Slavery elsewhere in the Constitution]</h2>
+<ul>
+<li class="fragment">Article I: foreign slave trade abolished starting in 1808, but no restrictions on domestic slave trade</li>
+<li class="fragment">Article IV: enslaved people could not gain freedom by escaping to free states and could be captured by enslavers (<strong>fugitive slave clause</strong>)</li>
+</ul>
+</section>
+<section id="federal-supremacy-vs.-state-sovereignty" class="slide level2">
+<h2>Federal supremacy vs.&nbsp;state sovereignty</h2>
+<p>How can states be assured of protection from federal tyranny?</p>
+<ul>
+<li class="fragment"><strong>Separation of powers:</strong> executive, judicial, and legislative branches of the federal government each have authority over different areas</li>
+<li class="fragment"><strong>Checks and balances:</strong> each branch is able to intervene in some ways on the others’ actions (not the same thing as separation of powers!)</li>
+</ul>
+<div class="fragment">
+<blockquote>
+<p>“Separated institutions sharing powers” (Neustadt 1960).</p>
+</blockquote>
+</div>
+</section>
+<section id="rights-in-the-constitution" class="slide level2">
+<h2>Rights in the Constitution?</h2>
+<ul>
+<li class="fragment">Federalists: states already enumerated the rights of their citizens, so the Constitution didn’t have to — and probably shouldn’t</li>
+<li class="fragment">Anti-federalists: the <strong>elastic clause</strong> could be weaponized to encroach on these rights in the future:</li>
+</ul>
+<div class="fragment">
+<blockquote>
+<p>The Congress shall have Power… To make all Laws which shall be necessary and proper for carrying into Execution the foregoing Powers.</p>
+</blockquote>
+</div>
+<div class="fragment">
+<p>Bargain: the First Congress would consider a Bill of Rights</p>
+</div>
+</section>
+<section id="iclicker-question-2" class="slide level2">
+<h2>iClicker question</h2>
+<div>
+<p>At the Constitutional Convention of 1787, the “Three-fifths Compromise” and the “Connecticut Compromise” both dealt with the issue of…</p>
+<ol type="a">
+<li>amendments to the Constitution</li>
+<li>representation in Congress</li>
+<li>rights of the accused</li>
+<li>powers of the President</li>
+</ol>
+</div>
+</section>
+<section id="closing-thoughts" class="slide level2">
+<h2>Closing thoughts</h2>
+<ol type="1">
+<li class="fragment">The founding documents represented a revolutionary change in thinking about government…</li>
+<li class="fragment">But they also drew from history and the examples of the states.</li>
+<li class="fragment">Translating the notions of natural rights and the social contract into a workable system of government proved difficult.</li>
+</ol>
+</section>
+<section id="for-wednesday" class="slide level2">
+<h2>For Wednesday</h2>
+<p>Read excerpts from Dahl, <em>How Democratic is the American Constitution?</em></p>
+</section></section>
+<section>
+<section id="wednesday-how-democratic-is-the-american-constitution" class="title-slide slide level1 center">
+<h1>Wednesday: how democratic is the American constitution?</h1>
+
+</section>
+<section id="another-day-another-political-philosopher" class="slide level2">
+<h2>Another day, another political philosopher</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<blockquote>
+<p>“My aim in this brief book is not to propose changes in the American Constitution but to suggest changes in the way we <em>think</em> about our constitution.” (Dahl 2001, 1).</p>
+</blockquote>
+</div><div class="column" style="width:40%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="dahl.jpg"></p>
+<figcaption>Robert A. Dahl</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="key-terms" class="slide level2">
+<h2>Key terms</h2>
+<dl>
+<dt class="fragment">Small-r republican</dt>
+<dd class="fragment">
+Sovereignty comes from the consent of the people; government is operated by representatives elected by the people; minority rights are protected by a constitution
+</dd>
+<dt class="fragment">Small-d democratic</dt>
+<dd class="fragment">
+Sovereignty comes from the will of the majority; majority rule; one person, one vote
+</dd>
+<dt class="fragment">Democratic republic</dt>
+<dd class="fragment">
+A system with a blend of republican and democratic elements.
+</dd>
+</dl>
+<div class="fragment">
+<p><em>Democracy is a spectrum.</em></p>
+</div>
+<!--
+## Not all democracies are republics, and not all republics are democracies
+
+Non-democratic republics
+: Representatives have power but are not democratically elected, e.g., Iran, Zimbabwe
+
+Non-republican democracies
+: Constitutional monarchies, e.g., Japan, United Kingdom
+-->
+</section>
+<section id="iclicker-question-3" class="slide level2">
+<h2>iClicker question</h2>
+<div>
+<p>Which of the following statements is true?</p>
+<ol type="a">
+<li>Not all democracies are republics, BUT all republics are democracies.</li>
+<li>Not all republicans and democracies, BUT all democracies are republics.</li>
+<li>Not all democracies are republics, AND not all republics are democracies.</li>
+<li>All democracies are republics, AND all republics are democracies.</li>
+</ol>
+</div>
+</section>
+<section id="practical-limitations-for-the-framers" class="slide level2">
+<h2>Practical limitations for the Framers</h2>
+<ul>
+<li class="fragment">Public opinion (and Framers’ convictions) <span class="math inline">\(\rightarrow\)</span> a <strong>republican</strong> form of government rather than a monarchy</li>
+<li class="fragment">Existence of sovereign states <span class="math inline">\(\rightarrow\)</span> a <strong>federal system</strong> (recall the failures of the Articles of Confederation)</li>
+<li class="fragment">Different worldviews among Framers <span class="math inline">\(\rightarrow\)</span> significant compromises (recall from Monday)</li>
+</ul>
+<div class="fragment">
+<blockquote>
+<p>“It was within these limits, then, that the Framers constructed the Constitution. Not surprisingly, it fell far short of the requirements that later generations would find necessary and desirable in a democratic republic” (Dahl 2001, 15).</p>
+</blockquote>
+</div>
+</section>
+<section id="undemocratic-elements-in-the-constitution" class="slide level2">
+<h2>Undemocratic elements in the Constitution</h2>
+<ol type="1">
+<li class="fragment">Slavery upheld</li>
+<li class="fragment">Suffrage not a universal right</li>
+<li class="fragment">President not elected by the people</li>
+<li class="fragment">Senators not elected by the people</li>
+<li class="fragment">Disproportional representation in the Senate</li>
+<li class="fragment">Door left open for judicial policymaking</li>
+<li class="fragment">Crucial economic policymaking authority limited</li>
+</ol>
+</section>
+<section id="slavery" class="slide level2">
+<h2>Slavery</h2>
+<blockquote>
+<p>“That it took three-quarters of a century and a sanguinary civil war before slavery was abolished should at least make us doubt whether the document of the Framers ought to be regarded as holy writ” (Dahl 2001, 16).</p>
+</blockquote>
+</section>
+<section id="voting-rights" class="slide level2">
+<h2>Voting rights</h2>
+<ul>
+<li class="fragment">15th Amendment, 1870: no denial of suffrage by race</li>
+<li class="fragment">19th Amendment, 1920: no denial of suffrage by gender</li>
+<li class="fragment">24th Amendment, 1964: prohibition on poll taxes</li>
+<li class="fragment">26th Amendment, 1971: voting age set to 18</li>
+</ul>
+<div class="fragment">
+<p>More about suffrage on Friday</p>
+</div>
+</section>
+<section id="election-of-senators-and-representation-in-the-senate" class="slide level2">
+<h2>Election of senators and representation in the Senate</h2>
+<ul>
+<li class="fragment">Article I, Section 3: senators appointed by state legislatures</li>
+<li class="fragment">17th Amendment, 1913: senators popularly elected</li>
+<li class="fragment">Recall the <strong>Connecticut Compromise:</strong> each state gets two senators</li>
+</ul>
+</section>
+<section id="election-of-the-president" class="slide level2">
+<h2>Election of the president</h2>
+<ul>
+<li class="fragment">Article II, Section 1 establishes the Electoral College</li>
+<li class="fragment">States get electors according to # of representatives + # of senators <span class="math inline">\(\rightarrow\)</span> disproportionate</li>
+<li class="fragment">Appointment of electors determined by state governments</li>
+<li class="fragment">Originally, electors could vote as they pleased</li>
+<li class="fragment">Today, electoral votes tied to the popular vote within the state</li>
+</ul>
+</section>
+<section id="iclicker-question-4" class="slide level2">
+<h2>iClicker question</h2>
+<div>
+<p>In which of these settings is representation more disproportionate?</p>
+<ol type="a">
+<li>The Senate</li>
+<li>The Electoral College</li>
+<li>Both are equally disproportionate</li>
+</ol>
+</div>
+</section>
+<section id="voting-power-in-2024" class="slide level2">
+<h2>Voting power in 2024</h2>
+<table>
+<thead>
+<tr class="header">
+<th>State</th>
+<th style="text-align: center;">Population</th>
+<th style="text-align: center;">1 senator per</th>
+<th style="text-align: center;">1 Electoral College vote per</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Colorado</td>
+<td style="text-align: center;">5,914,181</td>
+<td style="text-align: center;">2,957,091</td>
+<td style="text-align: center;">591,418</td>
+</tr>
+<tr class="even">
+<td>Wyoming</td>
+<td style="text-align: center;">586,485</td>
+<td style="text-align: center;">293,243</td>
+<td style="text-align: center;">195,495</td>
+</tr>
+<tr class="odd">
+<td>California</td>
+<td style="text-align: center;">39,128,162</td>
+<td style="text-align: center;">19,564,081</td>
+<td style="text-align: center;">724,596</td>
+</tr>
+</tbody>
+</table>
+<div class="fragment">
+<p>Compared to Colorado, Wyoming voters have 3x more power in the Electoral College and 10x more power in the Senate.</p>
+</div>
+</section>
+<section id="judicial-power" class="slide level2">
+<h2>Judicial power</h2>
+<ul>
+<li class="fragment">National Judiciary is (now) the only branch of the federal government that is not elected</li>
+<li class="fragment">Recall: in a democracy, laws reflect the will of the majority</li>
+<li class="fragment"><em>Marbury v. Madison</em> (1803) established principle of <strong>judicial review:</strong> SCOTUS can declare laws and statutes unconstitutional</li>
+</ul>
+</section>
+<section id="limitations-on-congressional-power" class="slide level2">
+<h2>Limitations on Congressional power</h2>
+<ul>
+<li class="fragment">Specifically, power to raise funds and regulate the economy</li>
+<li class="fragment">16th Amendment, 1913: allowed for a federal income tax</li>
+<li class="fragment">Ability to regulate railroads, air travel, food and drug safety, banking, minimum wage… (all big issues in a post-agrarian society) had to be legislated</li>
+<li class="fragment"><em>What does this have to do with democracy?</em></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<blockquote>
+<p>“Enlightened as the Framers’ constitution may have been by the standards of the eighteenth century, future generations with more democratic aspirations would find some of its undemocratic features objectionable — and even unacceptable” (Dahl 2001, 20).</p>
+</blockquote>
+</section>
+<section id="how-did-the-u.s.-become-more-democratic" class="slide level2">
+<h2>How did the U.S. become more democratic?</h2>
+<ul>
+<li class="fragment">Constitutional amendments</li>
+<li class="fragment">Early electorate proved resistant to “demagogues and rabble rousers” (why?)</li>
+<li class="fragment">Development of political parties (more about parties in Week 8)</li>
+</ul>
+</section>
+<section id="how-democratic-is-the-u.s.-today" class="slide level2">
+<h2>How democratic is the U.S. today?</h2>
+
+<img data-src="brookings_democracy_decline.jpeg" style="width:120.0%" class="r-stretch quarto-figure-center"></section>
+<section id="forms-of-democratic-erosion" class="slide level2">
+<h2>Forms of democratic erosion</h2>
+<ol type="1">
+<li class="fragment">Executive aggrandizement
+<ul>
+<li class="fragment">Congressional gridlock creates conditions for expansion</li>
+<li class="fragment">Supreme Court has supported expanding executive powers</li>
+<li class="fragment">Efforts by the president to expand powers are not new, but accelerated under Bush, Obama, and Trump</li>
+<li class="fragment">More about presidential power in Week 12</li>
+</ul></li>
+</ol>
+</section>
+<section id="forms-of-democratic-erosion-1" class="slide level2">
+<h2>Forms of democratic erosion</h2>
+<ol start="2" type="1">
+<li class="fragment">Strategic manipulation of elections
+<ul>
+<li class="fragment">Individual voter fraud is exceedingly rare</li>
+<li class="fragment">Some states make it harder to vote than others</li>
+<li class="fragment">States can create legislative districts that disadvantage the minority party <strong>(gerrymandering)</strong></li>
+<li class="fragment">More about voting rights on Friday</li>
+</ul></li>
+</ol>
+</section>
+<section id="closing-thoughts-1" class="slide level2">
+<h2>Closing thoughts</h2>
+<ol type="1">
+<li class="fragment">Dahl challenges us to think of the Constitution as a flawed document</li>
+<li class="fragment">Democratization is not a linear or inevitable process</li>
+<li class="fragment">American institutional arrangements are peculiar among wealthy democracies worldwide (covered elsewhere in the book)</li>
+</ol>
+</section>
+<section id="friday" class="slide level2">
+<h2>Friday</h2>
+<ul>
+<li class="fragment">No additional readings</li>
+<li class="fragment">Thinking about suffrage expansion and voting rights</li>
+</ul>
+</section></section>
+<section>
+<section id="friday-voting-rights" class="title-slide slide level1 center">
+<h1>Friday: voting rights</h1>
+
+</section>
+<section id="part-i-the-puzzle-of-suffrage-expansion" class="slide level2">
+<h2>Part I: the puzzle of suffrage expansion</h2>
+<blockquote>
+<p>“The further the limit of voting rights is extended, the stronger is the need felt to spread them still wider; for after each new concession the forces of democracy are strengthened, and its demands increase with its augmented power” (Tocqueville 1835).</p>
+</blockquote>
+</section>
+<section id="significant-expansions-in-voting-rights" class="slide level2">
+<h2>Significant expansions in voting rights</h2>
+<p>1789-1856: States eliminate property qualifications</p>
+<p>1870: 15th Amendment, right to vote cannot be denied based on race</p>
+<p>1913: 17th Amendment, direct election of senators</p>
+<p>1920: 19th Amendment, national women’s suffrage</p>
+<p>1924: Indian Citizenship Act grants Native Americans right to vote without giving up tribal affiliation</p>
+<p>1961: 23rd Amendment, Washington D.C. added to the Electoral College</p>
+<p>1964: 24th Amendment, poll taxes prohibited</p>
+<p>1965: Voting Rights Act enforced rights enshrined in the 14th and 15th Amendments</p>
+<p>1971: 26th Amendment, voting age set to 18</p>
+</section>
+<section id="puzzles" class="slide level2">
+<h2>Puzzles</h2>
+<ul>
+<li class="fragment">Why did expansions happen?</li>
+</ul>
+<div class="fragment">
+<blockquote>
+<p>“Why did those who were already enfranchised, such as property-owning white males, cut anybody else in on the deal?” (Keyssar 2009, xx)</p>
+</blockquote>
+</div>
+<ul>
+<li class="fragment">What explains the timing of these expansions?</li>
+<li class="fragment">What explains reversals in suffrage expansion?</li>
+</ul>
+</section>
+<section id="motivations-for-restricting-suffrage" class="slide level2">
+<h2>Motivations for restricting suffrage</h2>
+<ol type="1">
+<li class="fragment">Ideas: a Pandora’s box</li>
+<li class="fragment">Ideas: racism, sexism, nativism</li>
+<li class="fragment">Class tensions</li>
+<li class="fragment">Party competition</li>
+</ol>
+<aside class="notes">
+<ol type="1">
+<li>Considering voting rights for one group requires considering voting rights for other, less desirable groups (flip side of Tocqueville)</li>
+<li>Belief that different groups of people had different innate abilities to engage in self-governance and, as a result, different rights</li>
+<li>Fear of property expropriation from the haves to the have-nots (since rights have expanded from just the powerful/wealthy to the less-powerful/wealthy)</li>
+<li>If a party believes (1) it will lose from the expansion of suffrage or they’re just uncertain, and (2) expansion of suffrage does not seem inevitable, they will fight it</li>
+</ol>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="motivations-for-expanding-suffrage" class="slide level2">
+<h2>Motivations for expanding suffrage</h2>
+<ol type="1">
+<li class="fragment">Ideas: voting as a fundamental right</li>
+<li class="fragment">The frontier</li>
+<li class="fragment">Party competition</li>
+<li class="fragment">Industrialization and urbanization</li>
+<li class="fragment">War</li>
+</ol>
+<aside class="notes">
+<ol type="1">
+<li>Founders: citizens should have representation Tocqueville: logically, expansions to suffrage should gain momentum because justifications fall away together</li>
+<li>Western expansion <span class="math inline">\(\rightarrow\)</span> suffrage was a recruitment device for new states to get people to move there (big mechanism for women’s suffrage)</li>
+<li>Parties compete for the vote of newly included blocs if inclusion seems inevitable</li>
+<li>Industrialization <span class="math inline">\(\rightarrow\)</span> lower rates of property ownership than in agrarian societies, making it harder to rationalize property ownership requirement. Easier to organize to pressure for suffrage in urban areas.</li>
+<li>Continued need to recruit soldiers made it difficult to justify excluding these soldiers from the vote</li>
+</ol>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="party-competition-is-on-both-lists" class="slide level2">
+<h2>Party competition is on both lists??</h2>
+<!--https://www.politico.com/news/magazine/2022/01/13/voting-rights-partisan-history-527036-->
+<blockquote>
+<p>“Most of the time in U.S. history, voting rights were expanded by one party over the objections of the other. When it comes to who gets to participate fully in American democracy, the parties don’t hug it out, they duke it out” (Waldman 2022).</p>
+</blockquote>
+</section>
+<section id="iclicker-question-5" class="slide level2">
+<h2>iClicker question</h2>
+<div>
+<p>When is a political party likely to support suffrage expansion?</p>
+<ol type="a">
+<li>When it is unclear which party will benefit and the expansion appears inevitable</li>
+<li>When it is unclear which party will benefit and the expansion does not appear inevitable</li>
+<li>When the party will benefit and the expansion does not appear inevitable</li>
+<li>Both a and c</li>
+<li>Both b and c</li>
+</ol>
+</div>
+</section>
+<section id="voting-rights-for-black-americans" class="slide level2">
+<h2>Voting rights for Black Americans</h2>
+<p><strong>Reconstruction, 1867-1877</strong></p>
+<ul>
+<li class="fragment">Opportunity: South temporary excluded from Congress</li>
+<li class="fragment">Republicans (not the party of today!!) had huge majorities</li>
+<li class="fragment">15th Amendment, 1870: Black men have the right to vote</li>
+<li class="fragment">Enforcement Act of 1870: interfering with voting a federal crime</li>
+</ul>
+<p><strong>Collapse</strong></p>
+<ul>
+<li class="fragment">North loses interest in funding enforcement as time passes</li>
+<li class="fragment">1876: federal troops removed from the South</li>
+<li class="fragment">1878: Democrats gain control of Congress</li>
+</ul>
+</section>
+<section id="voting-rights-for-black-americans-1" class="slide level2">
+<h2>Voting rights for Black Americans</h2>
+<p><strong>Jim Crow, 1880-1965</strong></p>
+<ul>
+<li class="fragment">Slur for Black Americans now used to refer to repressive laws and practices in the South</li>
+<li class="fragment">Segregation laws upheld by Supreme Court in <em>Plessy v. Ferguson,</em> 1896</li>
+<li class="fragment">Tools of disenfranchisement:
+<ul>
+<li class="fragment">White primaries</li>
+<li class="fragment">Poll taxes</li>
+<li class="fragment">Literacy tests</li>
+<li class="fragment">Grandfather clause exempted white voters from poll taxes and literacy tests</li>
+</ul></li>
+<li class="fragment">Party coalitions shifted over this period, but Southern Democrats remained powerful</li>
+</ul>
+</section>
+<section id="voting-rights-for-black-americans-2" class="slide level2">
+<h2>Voting rights for Black Americans</h2>
+<p><strong>The Great Migration, 1930-1970</strong></p>
+<ul>
+<li class="fragment">Development of Black professional class in North/cities</li>
+<li class="fragment">Safer (though not safe) to organize for civil rights</li>
+<li class="fragment">Black vote becomes decisive in Northern urban areas</li>
+<li class="fragment">State Democratic parties shift towards support for civil rights, weakening Southern Democrats</li>
+</ul>
+<aside class="notes">
+<ul>
+<li>1900: 90% of Black Americans lived in the South; 1960: 50% lived in the South</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="voting-rights-for-black-americans-3" class="slide level2">
+<h2>Voting rights for Black Americans</h2>
+<p><strong>Voting Rights Act, 1965</strong></p>
+<ul>
+<li class="fragment">End to literacy tests and poll taxes</li>
+<li class="fragment">Federal officers could directly register voters</li>
+<li class="fragment">“Covered states” had to get <strong>preclearance</strong> from the Justice Department before changing election laws</li>
+<li class="fragment">2006: Congress renews VRA for another 25 years</li>
+<li class="fragment">2013: <em>Shelby County v. Holder,</em> preclearance and coverage formula ruled unconstitutional</li>
+</ul>
+</section>
+<section id="contrasting-case-voting-rights-for-women" class="slide level2">
+<h2>Contrasting case: voting rights for women</h2>
+<ul>
+<li class="fragment">Very different political calculus than Black suffrage
+<ul>
+<li class="fragment">Class</li>
+<li class="fragment">Race</li>
+<li class="fragment">Geography</li>
+<li class="fragment">Partisanship</li>
+</ul></li>
+<li class="fragment">Western states were early adopters (CO in 1893 — #5 after WY, UT, WA, MT)</li>
+<li class="fragment">Legislators from these states led bipartisan push for national women’s suffrage</li>
+<li class="fragment">19th Amendment ratified in 1920</li>
+</ul>
+</section>
+<section id="iclicker-question-6" class="slide level2">
+<h2>iClicker question</h2>
+<div>
+<p>What is a likely reason why women’s enfranchisement with the 19th Amendment came so much later than Black men’s enfranchisement with the 15th Amendment?</p>
+<ol type="a">
+<li>Legislators were more sexist than they were racist.</li>
+<li>Women did not constitute a cohesive voting bloc the way Black men did.</li>
+<li>Southern Democrats feared that women voters would weaken the party’s power in the region.</li>
+</ol>
+</div>
+</section>
+<section id="part-ii-contemporary-debates-over-voting-rights" class="slide level2">
+<h2>Part II: contemporary debates over voting rights</h2>
+<ul>
+<li class="fragment">Recall: party competition can motivate both expansions of and restrictions on voting rights</li>
+<li class="fragment">Important context: clear “sorting” of parties by geography, demography</li>
+<li class="fragment">Country growing more racially diverse <span class="math inline">\(\rightarrow\)</span> Democrats stand to benefit disproportionately from increasing turnout</li>
+<li class="fragment">Republican lawmakers advocate stricter voting requirements, purportedly to stop voter fraud</li>
+</ul>
+</section>
+<section id="we-know-which-policies-turn-up-and-turn-down-voting" class="slide level2">
+<h2>We know which policies “turn up” and “turn down” voting</h2>
+<div>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Increase voting with:</strong></p>
+<ul>
+<li>Same-day registration*</li>
+<li>Early*/automatic registration</li>
+<li>Felon enfranchisement*</li>
+<li>Vote-by-mail*</li>
+<li>Early voting*</li>
+</ul>
+<p>*Policy in effect in Colorado</p>
+</div><div class="column" style="width:50%;">
+<p><strong>Decrease voting with:</strong></p>
+<ul>
+<li>Strict voter ID laws</li>
+<li>Restrict “third-party” registration and voting efforts</li>
+<li>Reduce infrastructure for registration and voting</li>
+<li>Reject ballots cast in wrong precinct</li>
+<li>Voter roll purges based on voter inactivity</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="changing-conditions-across-states-over-time" class="slide level2">
+<h2>Changing conditions across states over time</h2>
+
+<img data-src="grumbach_sdi.jpeg" class="r-stretch quarto-figure-center"><p class="caption">Grumbach 2022. Democratic Performance Index includes indicators for policies that affect the cost of voting, policies related to election integrity, gerrymandering, and observed democratic outcomes.</p></section>
+<section id="changing-tides-in-2024" class="slide level2">
+<h2>Changing tides in 2024?</h2>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<p><img data-src="headline_cohn.jpeg"></p>
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<p><img data-src="headline_sides.jpeg"></p>
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<p><img data-src="headline_brownstein.jpeg"></p>
+</div>
+</div>
+</div>
+</section>
+<section id="closing-thoughts-2" class="slide level2">
+<h2>Closing thoughts</h2>
+<ul>
+<li class="fragment">The Constitution is an artifact of revolutionary thinking, political compromise, and limited information.</li>
+<li class="fragment">Democratic ideals were only partially enshrined in the Constitution.</li>
+<li class="fragment">Ideas matter for the development, expansion and preservation of democracy.</li>
+<li class="fragment">Structural conditions matter too.</li>
+</ul>
+<div class="fragment">
+<blockquote>
+<p>“We must never forget that democratic revolutions can go backward” (Valelly 2013).</p>
+</blockquote>
+</div>
+<!--https://washingtonmonthly.com/2013/07/02/is-the-voting-rights-act-dead/-->
+</section>
+<section id="looking-ahead" class="slide level2">
+<h2>Looking ahead</h2>
+<ul>
+<li class="fragment">Next week: federalism</li>
+<li class="fragment">No class on Monday (Labor Day)</li>
+<li class="fragment">No class on Friday (APSA)</li>
+</ul>
+<div class="footer footer-default">
+
+</div>
+</section></section>
+    </div>
+  </div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="PS101_week2_Founding_files/libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="PS101_week2_Founding_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="PS101_week2_Founding_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="PS101_week2_Founding_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="PS101_week2_Founding_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="PS101_week2_Founding_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="PS101_week2_Founding_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="PS101_week2_Founding_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="PS101_week2_Founding_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="PS101_week2_Founding_files/libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'smaller': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+    window.document.addEventListener("DOMContentLoaded", function (event) {
+      const toggleBodyColorMode = (bsSheetEl) => {
+        const mode = bsSheetEl.getAttribute("data-mode");
+        const bodyEl = window.document.querySelector("body");
+        if (mode === "dark") {
+          bodyEl.classList.add("quarto-dark");
+          bodyEl.classList.remove("quarto-light");
+        } else {
+          bodyEl.classList.add("quarto-light");
+          bodyEl.classList.remove("quarto-dark");
+        }
+      }
+      const toggleBodyColorPrimary = () => {
+        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+        if (bsSheetEl) {
+          toggleBodyColorMode(bsSheetEl);
+        }
+      }
+      toggleBodyColorPrimary();  
+      const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+      tabsets.forEach(function(tabset) {
+        const tabby = new Tabby('#' + tabset.id);
+      });
+      const isCodeAnnotation = (el) => {
+        for (const clz of el.classList) {
+          if (clz.startsWith('code-annotation-')) {                     
+            return true;
+          }
+        }
+        return false;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button', {
+        text: function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+      });
+      clipboard.on('success', function(e) {
+        // button target
+        const button = e.trigger;
+        // don't keep focus
+        button.blur();
+        // flash "checked"
+        button.classList.add('code-copy-button-checked');
+        var currentTitle = button.getAttribute("title");
+        button.setAttribute("title", "Copied!");
+        let tooltip;
+        if (window.bootstrap) {
+          button.setAttribute("data-bs-toggle", "tooltip");
+          button.setAttribute("data-bs-placement", "left");
+          button.setAttribute("data-bs-title", "Copied!");
+          tooltip = new bootstrap.Tooltip(button, 
+            { trigger: "manual", 
+              customClass: "code-copy-button-tooltip",
+              offset: [0, -8]});
+          tooltip.show();    
+        }
+        setTimeout(function() {
+          if (tooltip) {
+            tooltip.hide();
+            button.removeAttribute("data-bs-title");
+            button.removeAttribute("data-bs-toggle");
+            button.removeAttribute("data-bs-placement");
+          }
+          button.setAttribute("title", currentTitle);
+          button.classList.remove('code-copy-button-checked');
+        }, 1000);
+        // clear code selection
+        e.clearSelection();
+      });
+      function tippyHover(el, contentFn) {
+        const config = {
+          allowHTML: true,
+          content: contentFn,
+          maxWidth: 500,
+          delay: 100,
+          arrow: false,
+          appendTo: function(el) {
+              return el.closest('section.slide') || el.parentElement;
+          },
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'light-border',
+          placement: 'bottom-start'
+        };
+          config['offset'] = [0,0];
+          config['maxWidth'] = 700;
+        window.tippy(el, config); 
+      }
+      const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+      for (var i=0; i<noterefs.length; i++) {
+        const ref = noterefs[i];
+        tippyHover(ref, function() {
+          // use id or data attribute instead here
+          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+          try { href = new URL(href).hash; } catch {}
+          const id = href.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          return note.innerHTML;
+        });
+      }
+      const findCites = (el) => {
+        const parentEl = el.parentElement;
+        if (parentEl) {
+          const cites = parentEl.dataset.cites;
+          if (cites) {
+            return {
+              el,
+              cites: cites.split(' ')
+            };
+          } else {
+            return findCites(el.parentElement)
+          }
+        } else {
+          return undefined;
+        }
+      };
+      var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+      for (var i=0; i<bibliorefs.length; i++) {
+        const ref = bibliorefs[i];
+        const citeInfo = findCites(ref);
+        if (citeInfo) {
+          tippyHover(citeInfo.el, function() {
+            var popup = window.document.createElement('div');
+            citeInfo.cites.forEach(function(cite) {
+              var citeDiv = window.document.createElement('div');
+              citeDiv.classList.add('hanging-indent');
+              citeDiv.classList.add('csl-entry');
+              var biblioDiv = window.document.getElementById('ref-' + cite);
+              if (biblioDiv) {
+                citeDiv.innerHTML = biblioDiv.innerHTML;
+              }
+              popup.appendChild(citeDiv);
+            });
+            return popup.innerHTML;
+          });
+        }
+      }
+    });
+    </script>
+    
+
+</body></html>

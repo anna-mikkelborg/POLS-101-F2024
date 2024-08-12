@@ -1,0 +1,413 @@
+---
+title: "Week 3: Federalism"
+format: 
+  revealjs:
+    slide-number: true
+    show-slide-number: all
+    incremental: true
+    scrollable: true
+    include-in-header: 
+      text: |
+        <style>
+        .center-y {
+          margin: 0;
+          position: absolute;
+          top: 50%;
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+        }
+        </style>
+---
+
+# This week(ish)
+
+- **Wednesday:** The changing nature of American federalism
+
+- No class on Friday
+
+- **Monday:** Federalism causes strange things to happen (lecture posted to Canvas)
+
+# Wednesday: The changing nature of American federalism
+
+## Forget about America for a second
+
+![Country X](country_x.png)
+
+## iClicker question:
+
+:::{.nonincremental}
+In Country X, which level of government should run the military?
+
+a. Regional governments
+b. National government
+:::
+
+## iClicker question:
+
+:::{.nonincremental}
+In Country X, which level of government should decide the outcome of legal disputes?
+
+a. Regional governments
+b. National government
+:::
+
+## iClicker question:
+
+:::{.nonincremental}
+In Country X, which level of government should be responsible for the welfare of children living in poverty?
+
+a. Regional governments
+b. National government
+:::
+
+## Guess who else had to grapple with these questions...
+
+![Constitutional Convention](constitutional_convention.jpg)
+
+## Review: what is federalism?
+
+Confederation
+: states have sovereignty, national government does not
+
+Unitary system
+: national government has sovereignty, state governments do not
+
+Federal system
+: both state and national governments possess sovereignty
+
+## What this looks like
+
+- The same people and territory are covered by multiple levels of government
+- Each level has final authority on some matters
+- Each level of government is protected from domination by the other levels
+- The national constitution can't be changed without the consent of most subnational governments
+- Subnational governments have representation in the national government
+
+## Why not a confederation?
+
+:::: {.columns}
+
+::: {.column width="35%"}
+![Daniel Shays](shays.jpg)
+:::
+
+::: {.column width="65%"}
+::: {.center-y}
+
+They had already tried that.
+
+:::
+
+:::
+
+:::
+
+## Why not a unitary system?
+
+::: {.center-y}
+
+> "[An] immovable limit was the existence of the thirteen states... The need for a federal rather than a unitary republic was therefore not justified by a principle adduced from general historical experience, much less from political theory. It was just a self-evident fact" (Dahl 2001, 12).
+
+:::
+
+## Still a lot of details to hammer out
+
+**National government powers**
+
+- Coin money
+- Regulate interstate and foreign commerce
+- Tax imports and exports
+- Make treaties and declare war
+- Regulate the postal system
+- Make all laws "necessary and proper" to fulfill these responsibilities
+
+
+## Still a lot of details to hammer out
+
+**State government powers**
+
+- Administer elections
+- Regulate intrastate commerce
+- Establish forms of state and local governments
+- Protect public health, safety, and morals
+- Everything else not delegated to the national government or denied to the states by the Constitution
+
+## Still a lot of details to hammer out
+
+**Both:** 
+
+- Make and enforce laws
+- Administer a judiciary
+- Levy taxes
+- Borrow money
+- Seize property (eminent domain)
+
+## Still a lot of details to hammer out
+
+**Inter-state relations:** 
+
+- States have to accept each other's court decisions, public acts, and contracts
+- States have to deliver basic rights and protections to out-of-staters equally
+- No restrictions on inter-state trade
+
+## And significant change still occurred over time
+
+Founding-1870s: Series of landmark Supreme Court cases establish national supremacy
+
+1870s-1930s: Detente of dual federalism
+
+1930s-1970s: Cooperative federalism
+
+1970s-present: Competitive (new) federalism
+
+## Towards national supremacy, 1789-1870s
+
+- 1819: *McCulloch v Maryland* $\rightarrow$ **doctrine of implied powers** and **principle of national supremacy**
+- 1824: *Gibbons v Ogden* national government has exclusive right to regulate interstate commerce, including navigation
+- 1832-1833: Nullification Crisis. Can states nullify trade laws they don't like?
+- 1861-1865: Civil War. Union victory solidified national supremacy.
+
+::: {.notes}
+- McCulloch: think national bank.
+- Gibbons: think steamboats.
+- Nullification crisis: think tariffs.
+- Post-Civil War, Congress ended states' rights to secede and to nullify federal laws.
+- Conditions for readmitting confederate states: ratification of 14th and 15th Amendments
+:::
+
+## Detente, 1870s-1930s
+
+- Industrialization $\rightarrow$ rise of corporate power $\rightarrow$ tests of scope of government authority
+- Federal and state governments attempted to regulate commerce, but a series of Supreme Court cases limited scope
+    - *United States v E.C. Knight:* federal government cannot regulate manufacturing, only commerce
+    - *Lochner v New York:* states cannot cap work hours
+    
+## Both early periods characterized by dual federalism
+
+Dual federalism
+: State and national governments have clearly delineated powers and responsibilities
+
+- Textbook says dual federalism was only 1870s-1930s federalism! But it was the plan from the beginning.
+
+## Cooperative federalism, 1930s-1970s
+
+- The Great Depression $\rightarrow$ New Deal $\rightarrow$ FDR forces SCOTUS to accept greater scope of federal government action
+    - e.g., *NLRB v Jones and Laughlin Steel:* Congress can regulate manufacturing and labor-management relations
+- New era of **cooperative federalism:** increased overlap and coordination between federal and state governments
+- States retain flexibility over implementation of federal programs
+- But increased federal power led to significant **nationalization** of politics
+
+## Competitive federalism, 1970s-present
+
+aka "new" federalism
+
+- Push back towards decentralization, though not complete
+- SCOTUS reversed precedent on expansive view of commerce clause
+- National catastrophes (9/11, COVID-19) have weighed towards increased federal power
+
+## Closing thoughts
+
+- There are lots of ways to distribute power
+- Each arrangement has had benefits and drawbacks
+- Different arrangements have empowered different constituencies
+
+## Remember
+
+- No class on Friday!
+- More on Federalism on Monday.
+
+# Monday: Federalism causes strange things to happen
+
+## Review
+
+New Federalism
+: A framework for federal government that emphasizes the devolution of power from the federal government back to the states
+
+- Ushered in under Presidents Nixon and Reagan
+
+
+## Yet both levels of government continue to legislate on overlapping issues
+
+:::{.nonincremental}
+- Same-sex marriage
+- Immigration
+- Identification documents
+- Abortion
+- Gun control
+- Health insurance
+- Environmental regulations
+:::
+
+## Why?
+
+Factors increasing federal power
+
+1. Creeping categorization
+2. Federal preemption
+
+Factors increasing state power
+
+1. Venue shopping
+2. Discretionary enforcement
+3. The California effect
+
+## Methods of federal funding transfers to states
+
+General revenue sharing
+: Grants to states with no strings attached (only in effect 1972-1986)
+
+Block grants
+: Grants to states for a specific set of programs, but not specific activities (some strings attached). *e.g.,* TANF ("welfare")
+
+Categorical grants
+: Grants to states for a narrow purpose (many strings attached). *e.g.,* Medicaid
+
+---
+
+Creeping categorization
+: A process by which Congress adds conditions to existing block grants, causing them to more closely resemble categorical grants, or replaces expiring block grants with categorical grants
+
+## iClicker question
+
+An aside on data visualization: what's wrong with this figure?
+
+:::{.nonincremental}
+:::: {.columns}
+
+::: {.column width="35%"}
+![Figure 3.13. Federal grants to local and state governments](terrible_figure.png)
+:::
+
+:::{.column width="65%"}
+a. Inappropriate format selected
+b. Misleading scaling
+c. Variable of interest is not represented visually
+d. All of the above
+:::
+:::
+:::
+
+## Federal preemption
+
+- **Preemption laws:** Laws passed by Congress that explicitly limit future legislation by states on the same issue
+- SoRelle and Walker: Democratic and Republican Congresses pass preemptions at about equal rates
+- But they pass different *kinds:*
+  - Ceiling: states cannot pass stricter regulations than the national standard
+  - Floor: states cannot pass laxer regulations than the national standard, but can set stricter ones
+
+## Federal preemption
+
+![Floor vs. ceiling preemptions as enacted by party control of House, 1990-2012](floor_ceiling_preemption.png)
+
+## Federal preemption
+
+:::{.nonincremental}
+- **Preemption laws:** Laws passed by Congress that explicitly limit future legislation by states on the same issue
+- SoRelle and Walker: Democratic and Republican Congresses pass preemptions at about equal rates
+- But they pass different *kinds:* ceilings vs. floors
+- The parties' stances on "states' rights" depend on which one holds power
+- Public opinion is more stable (Rendleman and Rogowski 2024)
+:::
+
+## Venue shopping
+
+- Interest groups select the level (and branc) of government that will best allow them to promote the policies they want
+- *e.g.,* women's suffrage, civil rights, same-sex marriage, abortion rights and restrictions
+
+:::{.fragment}
+
+|Venue|Advantages|Disadvantages|
+|-----|:-------|:--------|
+|Federal|Consistent policy nationwide|Costly, gridlock more common|
+|State|Can start with sympathetic states|Leads to inconsistent policy nationwide|
+
+:::
+
+## Discretionary enforcement
+
+*e.g.,* Immigration federalism
+: State and local action on immigration, a formally national policy issue
+
+- Can be restrictive, like TX SB 4: makes undocumented status a state crime in TX
+    - Currently tied up in federal appeals court
+- Or the opposite, like CO HB19-1124: state law enforcement cannot arrest or detain individuals on the basis of immigration status
+    - Enacted in 2019
+
+## The California effect
+
+- Several states have truly massive economies (and consumer markets)
+- Regulations required in California often become the de facto national standard
+  - *e.g.,* auto emissions, gas stoves
+- Florida effect?
+  - *e.g.,* A.P. African American studies curriculum, also gas stoves
+
+---
+
+If this all feels a little wishy-washy, that's because it is!
+
+# Federalism, power, and democracy
+
+## States as "laboratories of democracy"
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+> “A single courageous state may, if its citizens choose, serve as a laboratory; and try novel social and economic experiments without risk to the rest of the country.”
+-- Supreme Court Justice Louis Brandeis, New State Ice Co. v. Liebmann, 285 U.S. 262
+:::
+
+::: {.column width="40%"}
+
+![](laboratories_of_democracy.jpeg)
+
+
+:::
+
+:::
+
+
+## States as "laboratories against democracy"
+
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+- Divided government less common $\rightarrow$ less gridlock $\rightarrow$ states can advance policies that would be blocked nationally
+- "Race to the bottom" logic of taxation, labor standards, environmental protections
+- Lower voter information and turnout $\rightarrow$ greater elite control
+:::
+
+::: {.column width="30%"}
+
+![](laboratories_against_democracy.jpeg)
+:::
+:::
+
+## Lived experiences across states can vary drastically
+
+![](nyt_federalism.png){fig-align="center"}
+
+## iClicker question
+
+:::{.nonincremental}
+In your opinion, are the experiences of the Nobles and the Huckinses stronger evidence of federalism's failure or success?
+
+a. Failure
+b. Success
+
+:::
+
+## Closing thoughts
+
+- The federal structure of government gives rise to a host of interesting dynamics.
+- The balance of power between the federal and state governments is always in flux.
+- The consequences of federalism are a mixed bag for individual citizens.
+
+## Looking ahead
+
+:::{.nonincremental}
+- Civil liberties
+- Your first exam is next Friday! Start reviewing now.
+:::
